@@ -1,0 +1,30 @@
+.work {
+    height: 550px;
+    color: #000;
+    background-color: #fff;
+    position: relative;
+}
+
+.work .container {
+    max-width: 900px;
+}
+
+.work-card {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin: 30px 0;
+    border: 4px black solid;
+}
+
+.work-text h2 {
+    text-align: center;
+}
+
+.work-text p {
+    text-align: justify;
+}
+
+.work-card img {
+    display: block;
+    width: 100%;
+}

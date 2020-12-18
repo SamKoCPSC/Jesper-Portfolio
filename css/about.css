@@ -1,0 +1,16 @@
+.about {
+    height: 550px;
+    color: #000;
+    background-color: #fff;
+    position: relative;
+}
+
+.about h1 {
+    text-align: center;
+    font-size: 40px;
+}
+
+.about p {
+    font-size: 1.2rem;
+    text-align: justify;
+}

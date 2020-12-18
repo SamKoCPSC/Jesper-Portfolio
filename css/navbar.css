@@ -1,0 +1,27 @@
+.navbar {
+    position: fixed;
+    z-index: 1;
+    width: 100vw;
+    background-color: #000066;
+    color: #fff;
+    height: 60px;
+}
+
+.navbar ul {
+    display: flex;
+}
+
+.navbar a {
+    color: #fff;
+    padding: 10px;
+    margin: 0 5px;
+}
+
+.navbar a:hover {
+    border-bottom: 2px rgb(0, 0, 0) solid;
+    color: black;
+}
+
+.navbar .flex {
+    justify-content: space-between;
+}
