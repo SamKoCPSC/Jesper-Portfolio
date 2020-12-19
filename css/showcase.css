@@ -28,6 +28,12 @@
     color: #fff;
     border: 1px #fff solid;
     border-radius: 15px;
+    transition: 0.3s ease;
+}
+
+.showcase-button:hover {
+    transform: scale(1.1);
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.8);
 }
 
 .showcase-image img {

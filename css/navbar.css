@@ -7,6 +7,10 @@
     height: 60px;
 }
 
+.navbar h1 {
+    font-family: 'Lobster', sans-serif;
+}
+
 .navbar ul {
     display: flex;
 }
@@ -18,8 +22,8 @@
 }
 
 .navbar a:hover {
-    border-bottom: 2px rgb(0, 0, 0) solid;
-    color: black;
+    border-bottom: 2px rgb(129, 129, 129) solid;
+    color: rgb(129, 129, 129);
 }
 
 .navbar .flex {
