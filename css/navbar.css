@@ -30,3 +30,10 @@
 .navbar .flex {
     justify-content: space-between;
 }
+
+@media(max-width: 510px) {
+    .navbar a {
+        padding: 5px;
+        font-size: 0.8rem;
+    }
+}

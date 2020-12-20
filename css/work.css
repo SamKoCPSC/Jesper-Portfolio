@@ -36,10 +36,31 @@
     width: 100%;
 }
 
-.work-card .img-right {
+.right img {
+    border-radius: 10px 0 0 10px;
+}
+
+.left img {
     border-radius: 0 10px 10px 0;
 }
 
-.work-card .img-left {
-    border-radius: 10px 0 0 10px;
+
+@media(max-width: 836px) {
+    .work-card {
+        display: flex;
+        max-width: 500px;
+        margin: 30px auto;
+    }
+    .right {
+        flex-direction: column-reverse;
+    }
+    .left {
+        flex-direction: column;
+    }
+    .right img {
+        border-radius: 10px 10px 0 0;
+    }
+    .left img {
+        border-radius: 10px 10px 0 0;
+    }
 }

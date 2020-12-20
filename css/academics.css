@@ -3,7 +3,7 @@
 }
 
 .academics-section {
-    height: 800px;
+    height: auto;
     color: #fff;
     background-image: linear-gradient(var(--primary-color), var(--secondary-color));
     position: relative;
@@ -11,6 +11,7 @@
 
 .academics .container {
     height: 100%;
+    overflow: visible;
 }
 
 .academics-summary {
@@ -80,7 +81,6 @@
 }
 
 .top {
-
     width: 100%;
     height: 200px;
     fill: var(--primary-color);
@@ -90,4 +90,16 @@
     width: 100%;
     height: 200px;
     fill: var(--secondary-color);
+}
+
+@media(max-width: 855px) {
+    .academics-summary {
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(2, 1fr);
+        text-align: center;
+    }
+    .academics-papers {
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+    }
 }

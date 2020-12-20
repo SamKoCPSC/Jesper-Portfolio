@@ -1,8 +1,9 @@
 .footer {
-    height: 300px;
+    height: auto;
     color: white;
     background-image: linear-gradient(to right, var(--primary-color), var(--secondary-color));
     position: relative;
+    padding-bottom: 50px;
 }
 
 .footer .container {
@@ -31,4 +32,17 @@
 
 .footer a:hover {
     text-decoration: underline;
+}
+
+@media(max-width: 650px) {
+    .footer .container {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(2, 1fr);
+        gap: 0;
+        text-align: center;
+    }
+    .footer-links {
+        margin-top: 0;
+    }
 }
