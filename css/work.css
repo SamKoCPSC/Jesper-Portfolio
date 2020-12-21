@@ -63,4 +63,7 @@
     .left img {
         border-radius: 10px 10px 0 0;
     }
+    .work-text p {
+        text-align: center;
+    }
 }
